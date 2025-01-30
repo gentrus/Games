@@ -12,10 +12,4 @@ public class Words {
         var list = Arrays.asList("апельсин", "лимон", "грейпфрут");
         return list.get(random.nextInt(list.size()));
     }
-
-    private String openLetters (int x) {
-
-        System.out.println();
-    }
-
 }
