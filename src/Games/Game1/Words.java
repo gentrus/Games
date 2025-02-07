@@ -5,7 +5,6 @@ import java.util.Random;
 
 public class Words {
     String word = getRandomWord();
-    char close = '_';
 
     private String getRandomWord () {
         var random = new Random();
